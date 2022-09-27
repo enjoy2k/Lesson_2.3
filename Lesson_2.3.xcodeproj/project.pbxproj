@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A723A3D928E341DC00036924 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A723A3D828E341DC00036924 /* SettingsViewController.swift */; };
 		A730F50428E1DBE500E81AB5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A730F50328E1DBE500E81AB5 /* AppDelegate.swift */; };
 		A730F50628E1DBE500E81AB5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A730F50528E1DBE500E81AB5 /* SceneDelegate.swift */; };
 		A730F50828E1DBE500E81AB5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A730F50728E1DBE500E81AB5 /* ViewController.swift */; };
@@ -16,10 +17,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A723A3D828E341DC00036924 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		A730F50028E1DBE500E81AB5 /* Lesson_2.3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lesson_2.3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A730F50328E1DBE500E81AB5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A730F50528E1DBE500E81AB5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A730F50728E1DBE500E81AB5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A730F50728E1DBE500E81AB5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; usesTabs = 0; };
 		A730F50A28E1DBE500E81AB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A730F50C28E1DBE700E81AB5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A730F50F28E1DBE700E81AB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -60,6 +62,7 @@
 				A730F50528E1DBE500E81AB5 /* SceneDelegate.swift */,
 				A730F50728E1DBE500E81AB5 /* ViewController.swift */,
 				A730F50928E1DBE500E81AB5 /* Main.storyboard */,
+				A723A3D828E341DC00036924 /* SettingsViewController.swift */,
 				A730F50C28E1DBE700E81AB5 /* Assets.xcassets */,
 				A730F50E28E1DBE700E81AB5 /* LaunchScreen.storyboard */,
 				A730F51128E1DBE700E81AB5 /* Info.plist */,
@@ -141,6 +144,7 @@
 				A730F50828E1DBE500E81AB5 /* ViewController.swift in Sources */,
 				A730F50428E1DBE500E81AB5 /* AppDelegate.swift in Sources */,
 				A730F50628E1DBE500E81AB5 /* SceneDelegate.swift in Sources */,
+				A723A3D928E341DC00036924 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
