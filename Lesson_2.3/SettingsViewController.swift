@@ -8,11 +8,11 @@
 import UIKit
 
 class SettingsViewController: UIViewController {
-    @IBOutlet var minValueTF: UITextField! // TF - Text Field
+    @IBOutlet var minValueTF: UITextField!
     @IBOutlet var maxValueTF: UITextField!
     
     var minValue: String! // Восклицательный знак означает что я не должен обращаться к свойству, пока оно не инициализировано
-    var maxValue: String! // Инициализация этих свойств возможна после того как супер Вью загрузится в память(СуперВью это основной экран)
+    var maxValue: String! // Инициализация этих свойств возможна после того как супер Вью загрузится в память
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,6 +21,6 @@ class SettingsViewController: UIViewController {
     }
 
     @IBAction func cancelButtonPressed() {
-        dismiss(animated: true) // Здесь икскод предлагает указать замыкание. В данном случае не нужно, но может понадобиться, если требуется выполнить какой-то код по закрытию
+        dismiss(animated: true)
     }
 }

@@ -21,9 +21,9 @@ class ViewController: UIViewController {
         getResultButton.layer.cornerRadius = 10
     }
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        guard let settingsVC = segue.destination as? SettingsViewController else { return } // Кастим UIViewController до SettingsViewController
-//        Создал экземпляр класса SettingsViewController, и в нём указал данные для отображения на странице настроек при загрузке вью
-        // guard использую чтобы экземпляр класса перестал быть опциональным
+        guard let settingsVC = segue.destination as? SettingsViewController else {
+            return
+            } // Кастим UIViewController до SettingsViewController
         settingsVC.maxValue = maxValueLabel.text
         settingsVC.minValue = minValueLabel.text
     }
@@ -35,7 +35,9 @@ class ViewController: UIViewController {
     }
     
     @IBAction func unwind(for segue: UIStoryboardSegue) {
-        guard let settingsVC = segue.source as? SettingsViewController else { return }
+        guard let settingsVC = segue.source as? SettingsViewController else {
+            return
+        }
         minValueLabel.text = settingsVC.minValueTF.text
         maxValueLabel.text = settingsVC.maxValueTF.text
     }
